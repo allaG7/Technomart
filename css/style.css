@@ -1,3 +1,20 @@
+html,
+body {
+	min-width: 1200px;
+	min-height: 3150px;
+	margin: 0;
+	padding: 0;
+}
+
+body {   
+	font-weight: ;
+	font-size: px;
+	line-height: px;
+	font-family: "Cuprum", "PT Sans", "Arial", sans-serif;
+	color: #;
+	font-weight:normal;
+}
+
 .sprite {
     background-image: url("../img/sprite.png");
     background-repeat: no-repeat;
@@ -122,4 +139,133 @@
     width: 20px;
     height: 18px;
     background-position: -10px -943px;
+}
+
+.header-user-block {
+	min-height: 42px;
+	background: #293449;
+	margin-bottom: -14px;
+	outline: green;
+}
+
+.container {	
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+	outline: red;
+	min-height: 42px
+}
+
+.logo {
+	display: block;
+	float: left;
+	width: 220px;
+	min-height: 47px;
+	outline: yellow;
+	text-decoration: none;
+}
+
+.search-main {
+	float: left;
+	width: 270px;
+	min-height: 42px;
+	outline: yellow;	
+}
+
+.bookmarks {
+	float: left;
+	display: block;
+	width: 106px;
+	min-height: 22px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 44px;
+	outline: yellow;
+}
+
+.cart {
+	float: left;	
+	display: block;
+	width: 100px;
+	min-height: 22px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	outline: yellow;
+}
+
+.btn-order {
+	float: right;
+	display: block;
+	width: 130px;
+	min-height: 22px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: auto;
+	background: #63a63e;
+	outline: yellow;
+}
+
+.search-btn {
+	display: none;
+}
+
+.search-txt {
+	width: 266px;
+	min-height: 36px;
+	background: #293449;
+	border: 2px solid #293449;
+}
+
+.header-main {
+	background: #f1f5f7;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+.shop-description {
+	display: inline-block;
+	float: left;
+	width: 196px;
+	margin-top: 38px;
+	margin-left: -163px;
+}
+
+.header-contacts {
+	display: inline-block;
+	float: left;
+	margin-top: 38px;
+	margin-left: 72px;
+}
+
+.login-block {	
+	
+	float: right;
+	margin-top: 38px;
+	margin-left: 57px;
+	margin-right: 0;
+}
+
+.top-navigation {
+	float: left;
+	width: 940px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 40px;
+}
+
+.top-navigation ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.top-navigation li {
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 23px;
+	padding-right: 23px;		
+	
 }
