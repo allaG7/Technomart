@@ -143,8 +143,7 @@ body {
 
 .header-user-block {
 	min-height: 42px;
-	background: #293449;
-	margin-bottom: -14px;
+	background: #293449;	
 	outline: green;
 }
 
@@ -156,13 +155,19 @@ body {
 	min-height: 42px
 }
 
-.logo {
-	display: block;
+.btn-logo {	
+  display: inline-block;
 	float: left;
-	width: 220px;
-	min-height: 47px;
-	outline: yellow;
-	text-decoration: none;
+	width: 220px;	
+  background: #ee3643;
+	border-bottom: 5px solid #b52933;
+  padding-top: 9px;
+	padding-bottom: 6px;
+	font-size: 24px;
+	text-transform: uppercase;	
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
 }
 
 .search-main {
@@ -180,8 +185,12 @@ body {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 44px;
-	outline: yellow;
+	font-size: 17px;
+  color: #ffffff;
+  text-decoration: none;
 }
+
+
 
 .cart {
 	float: left;	
@@ -190,8 +199,10 @@ body {
 	min-height: 22px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	padding-left: 50px;
-	outline: yellow;
+	padding-left: 50px;  
+  font-size: 17px;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .btn-order {
@@ -204,7 +215,9 @@ body {
 	padding-left: 20px;
 	padding-right: auto;
 	background: #63a63e;
-	outline: yellow;
+	font-size: 17px;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .search-btn {
@@ -216,9 +229,15 @@ body {
 	min-height: 36px;
 	background: #293449;
 	border: 2px solid #293449;
+  padding-left: 49px;
+  font-family: "Cuprum", "PT Sans", sans-serif;
+  font-size: 17px;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .header-main {
+  min-height: 255px;
 	background: #f1f5f7;
 	margin: 0;
 	padding: 0;
@@ -230,8 +249,13 @@ body {
 	float: left;
 	width: 196px;
 	margin-top: 38px;
-	margin-left: -163px;
+	margin-left: -163px;    
+  font-style: italic;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ee3643;
 }
+
 
 .header-contacts {
 	display: inline-block;
@@ -243,29 +267,42 @@ body {
 .login-block {	
 	
 	float: right;
-	margin-top: 38px;
-	margin-left: 57px;
-	margin-right: 0;
+	margin-top: 50px;
+  margin-right: 30px;
 }
 
 .top-navigation {
 	float: left;
-	width: 940px;
-	margin-left: 0;
-	margin-right: 0;
 	margin-top: 40px;
+  border-bottom: 5px solid #293449;
 }
 
 .top-navigation ul {
+  background: #32425c; 
 	margin: 0;
 	padding: 0;
 	list-style: none;
+  
 }
 
 .top-navigation li {
 	display: inline-block;
-	vertical-align: middle;
-	padding-left: 23px;
-	padding-right: 23px;		
-	
+	vertical-align: middle;	
+}
+
+.top-navigation a {
+  display: block;
+  font-size: 17px;
+  color: #ffffff;
+  background: #32425c; 
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-decoration: none;
+}
+
+.top-navigation ul:first-child {
+  padding-left: 27px;   
+  padding-right: ;
 }
