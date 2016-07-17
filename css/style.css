@@ -190,8 +190,6 @@ body {
   text-decoration: none;
 }
 
-
-
 .cart {
 	float: left;	
 	display: block;
@@ -225,11 +223,11 @@ body {
 }
 
 .search-txt {
-	width: 266px;
+	width: 221px;
 	min-height: 36px;
 	background: #293449;
 	border: 2px solid #293449;
-  padding-left: 49px;
+  padding-left: 49px;  
   font-family: "Cuprum", "PT Sans", sans-serif;
   font-size: 17px;
   color: #ffffff;
@@ -256,7 +254,6 @@ body {
   color: #ee3643;
 }
 
-
 .header-contacts {
 	display: inline-block;
 	float: left;
@@ -265,7 +262,6 @@ body {
 }
 
 .login-block {	
-	
 	float: right;
 	margin-top: 50px;
   margin-right: 30px;
@@ -305,4 +301,83 @@ body {
 .top-navigation ul:first-child {
   padding-left: 27px;   
   padding-right: ;
+}
+
+.phone { 
+  font-size: 21px;
+  padding-left: 60px;
+  padding-right: 37px;
+  color: #e9292a;
+  border: 5px solid #e9292a;
+  border-radius: 4%;
+}
+
+.address {
+  font-size: 14px;
+  margin-top: -7px;
+  color: #32425c;
+}
+
+.login-block {
+  margin-top: 65px;
+  margin-right: 0;
+  
+}
+
+.login-block-btn {
+  font-size: 21px;
+  color: #000000;
+  background: #a1e37d; 
+	padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 45px;
+  padding-right: 28px;
+  border-radius: 5%;
+	text-decoration: none;
+}
+
+.login-block-btn:last-child {
+  padding-left: 16px;
+  padding-right: 23px;
+  margin-left: 20px;
+}
+
+.authorization-block { 
+  display: inline-block;
+  float: right;
+  margin-right: 0px;  
+}
+
+.authorization-block-btn { 
+  position: absolute;
+  font-size: 21px;
+  color: #000000;
+  background: #a1e37d; 
+	padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 48px;
+  padding-right: 69px;
+  top: 100px;
+  right: -65px;
+  border-radius: 5%;
+	text-decoration: none;
+}
+
+.my-orders {
+  position: absolute;
+  float: right;
+  top: 145px;
+  right: 113px;
+  font-size: 16px;
+  color: #32425c;
+  margin-right: 33px;
+}
+.personal-account {
+  position: relative;
+  float: right;
+  top: 103px;
+  right: 37px;
+  font-size: 16px;
+  color: #32425c;
+  margin-right: 33px;
 }
