@@ -381,3 +381,61 @@ body {
   color: #32425c;
   margin-right: 33px;
 }
+
+.materials {
+  width: 300px;
+  min-height: 124px;
+  background: #f6b22d;
+}
+
+.tools {
+  width: 300px;
+  min-height: 124px;
+  background: #4aafde;
+}
+
+.equipment {  
+  width: 300px;
+  min-height: 124px;
+  background: #cc79d1;
+}
+
+.discounts {
+  width: 300px;
+  min-height: 124px;
+  background: #85d179;
+}
+
+.delivery {
+  width: 300px;
+  min-height: 124px;
+  background: #f6b22d;
+}
+
+.promo-btn { 
+  display: block;
+  width: 135px;
+  padding-top: 10px;
+	padding-bottom: 10px;
+  margin-top: -5px;
+  margin-left: 25px;
+	background: #dda028;
+  border-radius: 5%;
+	font-size: 14px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+}
+
+.promo-block h2 {
+  font-size: 24px;
+  color: #ffffff;
+  padding-top: 23px;
+  margin-left: 23px;
+}
+
+.tools promo-btn {
+  background: #429dc7;
+}
+
