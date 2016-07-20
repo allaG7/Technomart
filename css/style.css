@@ -382,56 +382,73 @@ body {
   margin-right: 33px;
 }
 
+.promo-block {
+  margin-top: 120px;
+}
+
 .materials {
+  float: left;
   width: 300px;
   min-height: 124px;
+  margin-right: 20px;
   background: #f6b22d;
 }
 
-.tools {
+.tools {   
+  float: left;
   width: 300px;
   min-height: 124px;
+  margin-right: 20px;
   background: #4aafde;
 }
 
-.equipment {  
+.equipment { 
+  float: right;
   width: 300px;
   min-height: 124px;
+  margin-right: 0px;
   background: #cc79d1;
 }
 
-.discounts {
+.discounts {  
+  display: inline-block;
   width: 300px;
   min-height: 124px;
+  box-sizing: border-box;
+  padding-top: 0px;
+  margin-top: 20px;
   background: #85d179;
 }
 
-.delivery {
+.delivery {  
   width: 300px;
   min-height: 124px;
+  box-sizing: border-box;
+  padding-top: 1px;
+  margin-top: 20px;
   background: #f6b22d;
 }
 
 .promo-btn { 
-  display: block;
+  display: inline-block;
   width: 135px;
   padding-top: 10px;
 	padding-bottom: 10px;
   margin-top: -5px;
   margin-left: 25px;
-	background: #dda028;
+	background-color: rgba(255,255,255,0.15);   
   border-radius: 5%;
 	font-size: 14px;
   color: #ffffff;
   text-transform: uppercase;
   text-align: center;
-  text-decoration: none;
+  text-decoration: none; 
 }
 
 .promo-block h2 {
   font-size: 24px;
   color: #ffffff;
-  padding-top: 23px;
+  
   margin-left: 23px;
 }
 
@@ -439,24 +456,32 @@ body {
   background: #429dc7;
 }
 
-.slider-top {
-	position: relative;
+.right-promo {
+  float: right;
+  margin-right: 0;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.slider-top {   
+	float: left;
 	width: 622px;
 	height: 266px;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
 
 .slide {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width:100%;
-	height: 100%; 
+  position: relative;
+	display: inline-block;
+	margin-top: 20px;  
 }
 
 .slide-text {
   position: absolute;
-	width: 264px;
-  min-height: 105px;
+	min-height: 105px;
 	color: #ffffff;
   box-sizing: border-box;
 	padding-top: 0px;
@@ -496,3 +521,4 @@ body {
 	background: #ee3643;	
 	border-radius: 3px;
 }
+
