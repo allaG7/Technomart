@@ -390,14 +390,13 @@ body {
 }
 
 .materials {
+  position: relative;
   float: left;
   width: 300px;
   min-height: 124px;
   margin-right: 20px;
   background: #f6b22d;
 }
-
-
 
 .tools {   
   float: left;
@@ -546,7 +545,8 @@ body {
 }
 
 .pop-items-show {  
-  min-height: 90px; 
+  min-height: 90px;
+  width: 940px;
 }
 
 .pop-items-show h2 {
@@ -704,7 +704,8 @@ body {
 }
 
 .vendors-show {  
-  min-height: 90px; 
+  min-height: 90px;
+  
 }
 
 .vendors-show h2 {
@@ -738,33 +739,62 @@ body {
 }
 
 .vendors-block {
+  min-height: 419px;
+  font-size: 0;
   padding: 0;
   margin: 0;
+  margin-bottom: 85px;
   text-decoration: none;
 }
 
-.vendor {
-  position: relative;  
-  display: inline-block; 
-  width: 220px;
-  min-height: 145px;
+.vendor {  
+  display: inline-block;
+  min-width: 217px;
+  min-height: 142px;
   margin-right: 20px;
   margin-bottom: 20px;  
   text-align: center;   
   vertical-align: middle;
-  border: 1px solid #ccc;  
+  border: 1px solid #ccc;    
 }
 
-.vendor:nth-child(4) {
-  margin-right: 0;
+.vendor:nth-child(4n+1) { 
+  margin-right: 0;   
 }
 
-.vendor img {
-  position: relative;
-  top: 50;
-  left: 0%;
+.vendor img { 
+  display: block;  
+  margin-top: 40px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+.service-block {
+  background: #ccc;  
+}
 
+.slider-bottom {
+  width: 966px;
+  min-height: 363px;  
+}
 
+.title {
+  width: 400px; 
+  font-family: "Cuprum";
+  font-size: 30px;
+  color: #000000;
+  text-transform: uppercase;  
+  padding-top: 58px;
+  
+}
+
+.text {
+  width: 400px;  
+  font-family: "PT Sans";
+  font-size: 13px;
+  color: #000000;
+  margin-bottom: 59px;
+  
+}
 
