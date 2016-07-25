@@ -235,8 +235,8 @@ body {
 }
 
 .header-main {
-  min-height: 255px;
-	background: #ccc;
+  min-height: 278px;
+	background: #f1f5f7;
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
@@ -269,7 +269,8 @@ body {
 
 .top-navigation {
 	float: left;
-	margin-top: 40px;
+	margin-top: 22px;
+	margin-bottom: 58px;
   border-bottom: 5px solid #293449;
 }
 
@@ -305,10 +306,12 @@ body {
 
 .phone { 
   font-size: 21px;
+	line-height: 30px;
   padding-left: 60px;
   padding-right: 37px;
+	margin-bottom: 16px;
   color: #e9292a;
-  border: 5px solid #e9292a;
+  border: 3px solid #ffffff;
   border-radius: 4%;
 }
 
@@ -327,9 +330,9 @@ body {
 .login-block-btn {
   font-size: 21px;
   color: #000000;
-  background: #a1e37d; 
-	padding-top: 7px;
-  padding-bottom: 7px;
+  background: #ffffff; 
+	padding-top: 6px;
+  padding-bottom: 6px;
   padding-left: 45px;
   padding-right: 28px;
   border-radius: 5%;
@@ -337,9 +340,9 @@ body {
 }
 
 .login-block-btn:last-child {
-  padding-left: 16px;
+  padding-left: 26px;
   padding-right: 23px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .authorization-block { 
@@ -352,30 +355,30 @@ body {
   position: absolute;
   font-size: 21px;
   color: #000000;
-  background: #a1e37d; 
-	padding-top: 7px;
-  padding-bottom: 7px;
+  background: #ffffff; 
+	padding-top: 6px;
+  padding-bottom: 6px;
   padding-left: 48px;
   padding-right: 69px;
   top: 100px;
-  right: -65px;
+  right: 162px;
   border-radius: 5%;
 	text-decoration: none;
 }
 
 .my-orders {
   position: absolute;
-  float: right;
-  top: 145px;
+  
+  top: 142px;
   right: 113px;
   font-size: 16px;
   color: #32425c;
-  margin-right: 33px;
+  margin-right: 258px;
 }
 .personal-account {
   position: relative;
-  float: right;
-  top: 103px;
+ 
+  top: 100px;
   right: 37px;
   font-size: 16px;
   color: #32425c;
@@ -383,7 +386,7 @@ body {
 }
 
 .promo-block {
-  margin-top: 120px;
+  margin-top: 61px;
   margin-bottom: 52px;
   min-width: 940px;
   min-height: 408px;  
@@ -557,7 +560,7 @@ body {
   font-size: 30px;
   text-transform: uppercase;
   color: #32425c;
-  background: #ccc;  
+  background: #f7f3ec;  
 }
 
 .btn-pop {
@@ -586,10 +589,9 @@ body {
   display: inline-block;
   vertical-align: top;
   width: 218px;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  margin-right: 20px;  
   text-align: center;
-  border: 1px solid #ccc;
+  border: 1px solid #e7e7e7;
 }
 
 
@@ -716,7 +718,7 @@ body {
   font-size: 30px;
   text-transform: uppercase;
   color: #32425c;
-  background: #ccc;  
+  background: #f7f3ec;  
 }
 
 .btn-pop {
@@ -743,7 +745,7 @@ body {
   font-size: 0;
   padding: 0;
   margin: 0;
-  margin-bottom: 85px;
+  margin-bottom: 65px;
   text-decoration: none;
 }
 
@@ -755,7 +757,7 @@ body {
   margin-bottom: 20px;  
   text-align: center;   
   vertical-align: middle;
-  border: 1px solid #ccc;    
+  border: 1px solid #e7e7e7;    
 }
 
 .vendor:nth-child(4n+1) { 
@@ -771,7 +773,7 @@ body {
 }
 
 .service-block {
-  background: #ccc;  
+  background: #f2f6f8;  
 }
 
 .slider-bottom {
@@ -794,7 +796,39 @@ body {
   font-family: "PT Sans";
   font-size: 13px;
   color: #000000;
-  margin-bottom: 59px;
+  margin-bottom: 62px;
   
+}
+
+.slide-bottom {
+	width:100%;
+	height: 343px;	
+}
+
+input[type="radio"] {
+	opacity: 0;
+}
+
+input[type="radio"] +label {
+	display: block;
+	margin-top: -20px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	line-height: 30px;	
+	position: relative;
+	cursor: pointer;
+	opacity: 1;
+}
+
+label {
+	width: 218px;	
+	font-size: 21px;
+	
+	color: #32425c;
+	background: #ffffff;
+	padding-left: 22px;
+	padding-top: 15px;
+	padding-bottom: 15px;	
 }
 
