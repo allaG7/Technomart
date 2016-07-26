@@ -547,6 +547,13 @@ body {
 	border-radius: 3px;
 }
 
+.pop-items-block {
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
 .pop-items-show {  
   min-height: 90px;
   width: 940px;
@@ -594,13 +601,8 @@ body {
   border: 1px solid #e7e7e7;
 }
 
-
-.item:nth-child(3) {
-  margin-right: 0;
-}
-
 .item:last-child {
-  margin-right: 0;
+  margin-right: 0;	  
 }
 
 .new:before {
@@ -682,6 +684,10 @@ body {
   margin-bottom: 10px;
   text-decoration: line-through;
   color: #999;
+}
+
+.item .discount:last-child {
+  color: #ffffff;
 }
 
 .item .price {
@@ -823,8 +829,7 @@ input[type="radio"] +label {
 
 label {
 	width: 218px;	
-	font-size: 21px;
-	
+	font-size: 21px;	
 	color: #32425c;
 	background: #ffffff;
 	padding-left: 22px;
@@ -832,3 +837,43 @@ label {
 	padding-bottom: 15px;	
 }
 
+.bottom-slide-text {
+	max-width: 380px;
+	margin-left: 320px;
+	margin-top: -178px;	
+}
+
+.bottom-slide-text p {
+	font-family: "PT Sans";
+	font-size: 13px;
+	line-height: 24px;
+	color: #000000;	
+	white-space: pre-wrap;
+}
+
+.bottom-slide-title {
+	font-size: 36px;	
+	line-height: 24px;
+	font-weight: normal;
+	margin-top: 0;
+	color: #32425c;
+	text-transform: uppercase;
+}
+
+.slide-bottom:nth-child(1) {
+	background-image: url("../img/delivery.png");
+	background-repeat: no-repeat;
+	background-position: 100% 5px;
+}
+
+.slide-bottom:nth-child(2) {
+	background-image: url("../img/guarantee.png");
+	background-repeat: no-repeat;
+	background-position: 100% 10px;
+}
+
+.slide-bottom:nth-child(3) {
+	background-image: url("../img/credit.png");
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+}
