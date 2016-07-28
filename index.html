@@ -205,13 +205,15 @@
 			<div class="slider-bottom">					
 				<h1 class="title">Сервисы</h1>	
 				<p class="text">Хороший интернет-магазин отличается от плохого не только ценами! 
-Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>				
-				<input type="radio" name="slide" id="delivery" checked>
-				<label for="delivery">Доставка</label>
-				<input type="radio" name="slide" id="guarantee" >
-				<label for="guarantee">Гарантия</label>
-				<input type="radio" name="slide" id="credit">
-				<label for="credit">Кредит</label>
+Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+				<input type="radio" id="delivery" name="toggle" checked>
+				<input type="radio" id="guarantee" name="toggle">
+				<input type="radio" id="credit" name="toggle">
+				<div class="slider-bottom-controls">
+					<label for="delivery">Доставка</label>
+					<label for="guarantee">Гарантия</label>
+					<label for="credit">Кредит</label>
+				</div>
 				<div class="slides-bottom">
 					<div class="slide-bottom">
 						<div class="bottom-slide-text">
@@ -235,7 +237,7 @@
 					<div class="slide-bottom">
 						<div class="bottom-slide-text">
 							<h2 class="bottom-slide-title">Кредит</h2>
-							<p>Залезть в долговую яму стало проще! <br>
+							<p>Залезть в долговую яму стало проще! 
 Кредитные консультанты придут вам на помощь.</p>
 							<a class="btn" href="#">ОТПРАВИТЬ ЗАЯВКУ</a>
 						</div>
