@@ -555,7 +555,6 @@ body {
 }
 
 .pop-items-show {  
-  min-height: 90px;
   width: 940px;
 }
 
@@ -711,10 +710,6 @@ body {
   border-left-color: #ee3643;
 }
 
-.vendors-show {  
-  min-height: 90px;  
-}
-
 .vendors-show h2 {
   padding-left: 30px;
   padding-top: 25px;
@@ -770,9 +765,9 @@ body {
 }
 
 .vendor img { 
-  display: block;  
-  margin-top: 40px;
-  margin-bottom: 0px;
+  display: block; 
+	margin-top: 40px;
+	margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1061,8 +1056,7 @@ label:active {
 .top-footer {
 	width: 100%;
 	height: 193px;
-	background: #32425c;
-	
+	background: #32425c;	
 }
 
 .btn-logo2 {	
@@ -1171,7 +1165,108 @@ label:active {
   text-decoration: none;
 }
 
+.bottom-footer {
+	box-sizing: border-box;
+	padding-top: 18px;
+	width: 100%;
+	height: 107px;
+	background: #293449;
+}
 
+.footer-copyright-left {
+	float: left;
+	font-size: 16px;
+	color: #ffffff;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.footer-social {
+	float: left;
+	margin-left: 160px;
+	margin-top: auto;
+	margin-bottom: auto;
+	vertical-align: bottom;
+	text-align: center;	
+}
+
+.social-btn {
+	position: relative;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin: 0 2px;
+	font-size: 0;
+	border-radius: 50%;
+	background: #212a3a;
+	text-align: center;	
+}
+
+.social-btn::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-image: url("../img/sprite.png");
+	background-repeat: no-repeat;	
+}
+
+.vk::before {
+	width: 20px;
+	height: 12px;
+	background-position: -10px -47px;
+}
+
+.fb::before {
+	width: 10px;
+  height: 18px;
+  background-position: -10px -408px;
+}
+
+.inst::before {
+	width: 17px;
+  height: 17px;
+  background-position: -10px -10px;
+}
+
+.footer-feedback {
+	float: left;
+	font-size: 16px;
+	color: #ffffff;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 118px;
+}
+
+.footer-feedback p {
+	margin-bottom: 0;
+}
+
+.footer-feedback a {
+	color: #ffd180;
+	margin-top: 7px;
+	text-decoration: none;
+}
+
+.footer-copyright-right {
+	float: right;
+	font-size: 16px;
+	color: #ffffff;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 54px;
+}
+
+.footer-copyright-right p {
+	margin-bottom: 0;
+}
+
+.footer-copyright-right a {
+	color: #ffd180;
+	margin-top: 7px;
+	text-decoration: none;
+}
 
 
 
