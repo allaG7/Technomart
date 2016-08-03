@@ -1477,6 +1477,84 @@ input[type="radio"] {
 	margin-bottom: 10px;
 }
 
+.finish-order {
+	display: inline-block;
+	width: 220px;
+	padding-top:11px;
+	padding-bottom: 11px;
+	padding-right: 0;
+	padding-left: 0;
+	margin-right: 20px;
+	font-family: "Cuprum", "PT Sans", sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	background: #ee3643;
+	border-radius: 3px;
+	outline: none;
+	border: 0;
+}
+
+.btn-more-orders {
+	display: inline-block;
+	width: 220px;
+	padding-top:11px;
+	padding-bottom: 11px;
+	padding-right: 0;
+	padding-left: 0;
+	font-family: "Cuprum", "PT Sans", sans-serif;
+	font-size: 14px;
+	color: #000000;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	background: #ffffff;
+	border-radius: 3px;
+	outline: none;
+}
+
+.modal-marker {
+	position: absolute;
+	top: 40px;
+	left: 80px;	
+	width: 66px;
+	height: 66px;
+	font-size: 0px;
+	background-color: #63a63e;
+	border: 0;
+	border-radius: 50%;
+	outline: 0;
+}
+
+.modal-marker::before,
+.modal-marker::after {
+	content: "";
+	position: absolute;
+	top: 45%;
+	right: 8px;
+	width: 25px;
+	height: 5px;
+	background-color: #ffffff;
+	border-radius: 1px;
+}
+
+.modal-marker::before {
+	transform: rotate(45deg);
+}
+
+.modal-marker::after {
+	transform: rotate(-45deg);
+}
+
+.modal-content p {
+	display: inline-block;
+	margin-right: 34px;
+	font-size: 16px;
+	color: #000000;
+}
+
 
 
 
