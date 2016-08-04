@@ -1305,7 +1305,7 @@ input[type="radio"] {
 
 .modal {
 	position: fixed;
-	display: inline-block;
+	display: block;
 	left: 50%; 
 	top: 50%;
 	z-index: 10;
@@ -1517,7 +1517,7 @@ input[type="radio"] {
 
 .modal-marker {
 	position: absolute;
-	top: 40px;
+	top: 50px;
 	left: 80px;	
 	width: 66px;
 	height: 66px;
@@ -1528,14 +1528,24 @@ input[type="radio"] {
 	outline: 0;
 }
 
-.modal-marker::before,
+.modal-marker::before {
+	content: "";
+	position: absolute;
+	top: 55%;
+	right: 30px;
+	width: 20px;
+	height: 7px;
+	background-color: #ffffff;
+	border-radius: 1px;
+}
+
 .modal-marker::after {
 	content: "";
 	position: absolute;
 	top: 45%;
-	right: 8px;
-	width: 25px;
-	height: 5px;
+	right: 10px;
+	width: 27px;
+	height: 7px;
 	background-color: #ffffff;
 	border-radius: 1px;
 }
@@ -1550,8 +1560,10 @@ input[type="radio"] {
 
 .modal-content p {
 	display: inline-block;
-	margin-right: 34px;
-	font-size: 16px;
+	margin-left: 55px;
+	margin-top: 11px;
+	margin-bottom: 31px;
+	font-size: 30px;
 	color: #000000;
 }
 
