@@ -385,6 +385,215 @@ body {
   margin-right: 33px;
 }
 
+.breadcrumbs {
+  margin: 0;
+	margin-top: 22px;
+	margin-bottom: 22px;
+  padding: 0;
+	font-size: 0;	
+  list-style: none;
+}
+
+.breadcrumbs li {
+  position: relative;
+	font-family: PT Sans;
+	font-size: 13px;
+	text-transform: uppercase;
+  display: inline;
+  padding-right: 40px;
+	
+}
+
+.breadcrumbs li:first-child {
+	padding-right: 0px;
+	padding-left: 54px;
+}
+
+.breadcrumbs li::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  right: 18px;
+
+  width: 8px;
+  height: 8px;
+
+  background-color: #000000;
+  transform: rotate(45deg);
+}
+
+.breadcrumbs a {
+	
+  color: #000000;
+  text-decoration: none;
+}
+
+.current-page::after {
+	display: none;
+}
+
+.catalog-page-title {
+  padding-left: 30px;
+  padding-top: 31px;
+  padding-bottom: 31px;
+  font-family: "Cuprum";
+  text-transform: uppercase;
+  color: #32425c;
+  background: #f1f5f7;  
+}
+
+.filters-column {
+	float: left;
+	width: 220px;
+	margin-right: 20px;
+	font-family: PT Sans;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+
+.items-column {
+	float: right;
+	width: 700px;
+	font-family: PT Sans;
+	text-transform: uppercase;
+}
+
+.filter-menu {
+	background: #f7f3ec;
+	padding-top: 11px;
+	
+}
+
+.filter-menu p{
+	margin: 0;
+	padding-left: 19px;
+	font-size: 13px;
+	
+}
+
+.filter-title p {
+	margin: 0;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	padding-left: 19px;
+	font-size: 13px;
+	background: #f7f3ec;
+}
+
+.range-filter {
+	width: 220px;
+	
+}
+
+.range-controls {
+	position: relative;
+	height: 41px;
+	padding-top: 39px;
+	margin-bottom: 9px;
+	padding-right: 20px;
+	padding-left: 20px;
+	border-radius: 5px;
+	background: #f7f3ec;
+}
+
+.range-controls .scale {
+	height: 2px;
+	background: #d7dcde;
+}
+
+.range-controls .bar {
+	width: 70%;
+	height: 2px;
+	background: #00ca74;
+}
+
+.range-controls .toggle {
+	position: absolute;
+	top: 30px;
+	left: 0px;
+	width: 4px;
+	height: 4px;
+	cursor: pointer;
+	border: 8px solid #fff;
+	border-radius: 50%;
+	background: #ababab;
+	box-shadow: 0 2px 1px 0 #cfcfcf;
+}
+
+.range-controls .toggle-min {
+	left: 20px;
+}
+
+.range-controls .toggle-max {
+	left: 160px;
+}
+
+.price-controls {
+	font-size: 0;
+}
+
+.price-controls label {
+	font-size: 16px;
+	
+	text-transform: uppercase;
+	display: inline-block;
+	width: 50%;
+}
+
+.max-price {
+	text-align: right;
+	
+}
+
+.price-controls input {
+	font-size: 17px;
+	text-align: center;
+	width: 76px;
+	padding: 9px 10px;
+	margin-bottom: 26px;	
+	color: #283136;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	background: #f7f3ec;
+}
+
+.second-group {
+	
+}
+
+.final-filter p {
+	float: left;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+.final-filter ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-bottom: 15px;
+	padding-bottom: 8px;
+}
+
+.final-filter li {
+	display: inline-block;
+	line-height: 1;
+	font-size: 13px;
+	text-transform: capitalize;
+	color: #acaaa5;
+	margin-left: 42px;
+	padding-top: 4px;
+	vertical-align: top;	
+}
+
+.final-filter li a {
+	color: #acaaa5;
+	text-decoration: none;
+	border-bottom: 1px dotted #ee3643;
+}
+
+
 .promo-block {
   margin-top: 61px;
   margin-bottom: 52px;
@@ -1305,7 +1514,7 @@ input[type="radio"] {
 
 .modal {
 	position: fixed;
-	display: block;
+	display: none;
 	left: 50%; 
 	top: 50%;
 	z-index: 10;
