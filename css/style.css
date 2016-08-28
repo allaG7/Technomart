@@ -7,16 +7,15 @@ body {
 }
 
 body {   
-	font-weight: ;
-	font-size: px;
+	font-weight: 700;
+	font-size: 17px;
 	line-height: px;
 	font-family: "Cuprum", "PT Sans", "Arial", sans-serif;
-	color: #;
+	color: #000000;
 	font-weight:normal;
 }
-
 .sprite {
-    background-image: url("../img/sprite.png");
+    background-image: url(../img/sprite.png);
     background-repeat: no-repeat;
     display: block;
 }
@@ -45,100 +44,94 @@ body {
     background-position: -10px -115px;
 }
 
-.sprite-ico-delivery {
-    width: 78px;
-    height: 63px;
+.sprite-ico-check-off {
+    width: 23px;
+    height: 23px;
     background-position: -10px -151px;
 }
 
-.sprite-ico-discounts {
-    width: 59px;
-    height: 72px;
-    background-position: -10px -234px;
-}
-
-.sprite-ico-equipment {
-    width: 78px;
-    height: 62px;
-    background-position: -10px -326px;
+.sprite-ico-check-on {
+    width: 27px;
+    height: 23px;
+    background-position: -10px -194px;
 }
 
 .sprite-ico-fb {
     width: 10px;
     height: 18px;
-    background-position: -10px -408px;
+    background-position: -10px -237px;
 }
 
 .sprite-ico-home {
     width: 15px;
     height: 12px;
-    background-position: -10px -446px;
+    background-position: -10px -275px;
 }
 
 .sprite-ico-login {
     width: 20px;
     height: 17px;
-    background-position: -10px -478px;
+    background-position: -10px -307px;
 }
 
 .sprite-ico-login-h {
     width: 20px;
     height: 17px;
-    background-position: -10px -515px;
+    background-position: -10px -344px;
 }
 
 .sprite-ico-logout {
     width: 21px;
     height: 17px;
-    background-position: -10px -552px;
+    background-position: -10px -381px;
 }
 
 .sprite-ico-logout-h {
     width: 21px;
     height: 17px;
-    background-position: -10px -589px;
-}
-
-.sprite-ico-materials {
-    width: 44px;
-    height: 65px;
-    background-position: -10px -626px;
+    background-position: -10px -418px;
 }
 
 .sprite-ico-phone {
     width: 19px;
     height: 19px;
-    background-position: -10px -711px;
+    background-position: -10px -455px;
+}
+
+.sprite-ico-radio {
+    width: 25px;
+    height: 25px;
+    background-position: -10px -494px;
+}
+
+.sprite-ico-radio-dot {
+    width: 25px;
+    height: 25px;
+    background-position: -10px -539px;
 }
 
 .sprite-ico-search {
     width: 17px;
     height: 17px;
-    background-position: -10px -750px;
+    background-position: -10px -584px;
 }
 
 .sprite-ico-search-h {
     width: 17px;
     height: 17px;
-    background-position: -10px -787px;
-}
-
-.sprite-ico-tools {
-    width: 75px;
-    height: 61px;
-    background-position: -10px -824px;
+    background-position: -10px -621px;
 }
 
 .sprite-ico-user {
     width: 20px;
     height: 18px;
-    background-position: -10px -905px;
+    background-position: -10px -658px;
 }
 
 .sprite-ico-user-h {
     width: 20px;
     height: 18px;
-    background-position: -10px -943px;
+    background-position: -10px -696px;
 }
 
 .header-user-block {
@@ -227,11 +220,46 @@ body {
 	min-height: 36px;
 	background: #293449;
 	border: 2px solid #293449;
-  padding-left: 49px;  
+	padding-left: 49px;  
   font-family: "Cuprum", "PT Sans", sans-serif;
   font-size: 17px;
-  color: #ffffff;
-  text-decoration: none;
+	color: #ffffff;
+}
+
+.search-txt:hover {
+	opacity: 1;
+	background: #212a3a;
+}
+
+.search-txt:active {
+	background: #293449;
+}
+
+.search-txt:focus {
+	color: #000000;
+	background: #ffffff;
+	border: 2px solid #ffffff;
+}
+
+.search-main input.ico-search {
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat;
+  background-position: 6px -573px;
+	opacity: 0.3;
+}
+
+.search-main input.ico-search:hover {
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat;
+  background-position: 6px -573px;
+	opacity: 1;
+}
+
+.search-main input.ico-search:focus {
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat;
+  background-position: 6px -610px;
+	opacity: 1;
 }
 
 .header-main {
@@ -637,8 +665,7 @@ input[type="radio"] +label {
 	width: 286px;
 	height: 38px;
 	font-size: 0;
-  margin-top: 32px;
-	margin-bottom: 60px;
+  margin-top: 32px;	
 }
 
 .pagination a {
@@ -711,19 +738,19 @@ main {
   width: 100%;
   height: 261px;
   background: #f1f5f7;
+	margin-top: 37px;
 }
 
 .catalog-section-description h2 {
   display: inline-block;
-  margin-top: 60px;
   margin-bottom: 14px;
+	margin-top: 64px;
 }
 
 .catalog-section-description p {
   font-family: "PT Sans";
   font-size: 13px;
   color: #000000;
-  margin-bottom: 54x;
   line-height: 24px;
 }
 
@@ -741,7 +768,7 @@ main {
   width: 300px;
   min-height: 124px;
   margin-right: 20px;
-  background: #f6b22d;
+  background: #f6b22d url(../img/ico-materials.jpg) no-repeat 213px 30px;
 }
 
 .tools {   
@@ -749,7 +776,7 @@ main {
   width: 300px;
   min-height: 124px;
   margin-right: 20px;
-  background: #4aafde;
+  background: #4aafde url(../img/ico-tools.jpg) no-repeat 196px 30px;
 }
 
 .equipment { 
@@ -757,7 +784,7 @@ main {
   width: 300px;
   min-height: 124px;
   margin-right: 0px;
-  background: #cc79d1;
+  background: #cc79d1 url(../img/ico-equipment.jpg) no-repeat 191px 30px;
 }
 
 .discounts {  
@@ -767,7 +794,7 @@ main {
   box-sizing: border-box;
   padding-top: 0px;
   margin-top: 20px;
-  background: #85d179;
+  background: #85d179 url(../img/ico-discounts.jpg) no-repeat 196px 25px;
 }
 
 .delivery {  
@@ -776,7 +803,7 @@ main {
   box-sizing: border-box;
   padding-top: 1px;
   margin-top: 20px;
-  background: #f6b22d;
+  background: #f6b22d url(../img/ico-delivery.jpg) no-repeat 191px 33px;
 }
 
 .new:before {
@@ -797,7 +824,7 @@ main {
 	padding-bottom: 10px;
   margin-top: -5px;
   margin-left: 25px;
-	background-color: rgba(255,255,255,0.15);   
+	background-color: rgba(178,178,178,0.30);   
   border-radius: 5%;
 	font-size: 14px;
   color: #ffffff;
@@ -805,6 +832,14 @@ main {
   text-align: center;
   text-decoration: none; 
 }
+
+.promo-btn:hover { 
+  background-color: rgba(178,178,178,0.50);   
+ }
+
+.promo-btn:active { 
+  background-color: rgba(178,178,178,1);   
+ }
 
 .promo-block h2 {
   font-size: 24px;
@@ -1577,7 +1612,7 @@ input[type="radio"] {
 .fb::before {
 	width: 10px;
   height: 18px;
-  background-position: -10px -408px;
+  background-position: -10px -237px;
 }
 
 .inst::before {
