@@ -423,7 +423,8 @@ body {
 }
 
 .login-block-btn {
-  font-size: 21px;
+	position: relative;
+	font-size: 21px;
   color: #000000;
   background: #ffffff; 
 	padding-top: 6px;
@@ -438,6 +439,38 @@ body {
   padding-left: 26px;
   padding-right: 23px;
   margin-left: 10px;
+}
+
+.login-block-btn:hover {
+	color: #ee3643;
+}
+
+.login-block-btn:active {
+	color: #c5c5c5;	
+}
+
+.login-block-btn:first-child::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 14px;
+
+  width: 20px;
+  height: 17px;
+
+  background: transparent url("../img/sprite.png") no-repeat;
+  background-position: -10px -307px;
+  
+}
+
+.login-block-btn:first-child:hover::before {
+  background: transparent url("../img/sprite.png") no-repeat;
+  background-position: -10px -344px;  
+}
+
+.login-block-btn:first-child:active::before {
+  background: transparent url("../img/sprite.png") no-repeat;
+  background-position: -10px -307px; 
 }
 
 .authorization-block { 
@@ -461,6 +494,62 @@ body {
 	text-decoration: none;
 }
 
+.authorization-block-btn:hover {
+	color: #000000;
+}
+
+.authorization-block-btn:active {
+	color: #c5c5c5;	
+}
+
+.authorization-block-btn::before {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: 13px;
+
+  width: 20px;
+  height: 18px;
+
+  background: transparent url("../img/sprite.png") no-repeat;
+  background-position: -10px -658px;
+  
+}
+
+.authorization-block-btn:hover::before {
+  background: transparent url("../img/sprite.png") no-repeat;
+  background-position: -10px -696px; 
+}
+
+.authorization-block-btn:active::before {
+  background: transparent url("../img/sprite.png") no-repeat;
+  background-position: -10px -658px;
+}
+
+.authorization-block-btn::after {
+  content: "";
+  position: absolute;
+  top: 9px;
+  right: 11px;
+
+  width: 21px;
+  height: 17px;
+
+  background: transparent url("../img/sprite.png") no-repeat;
+  background-position: -10px -381px;
+  
+}
+
+.authorization-block-btn:hover::after {
+  background: transparent url("../img/sprite.png") no-repeat;
+  background-position: -10px -418px; 
+}
+
+.authorization-block-btn:active::after {
+  background: transparent url("../img/sprite.png") no-repeat;
+  background-position: -10px -381px;
+}
+
 .my-orders {
   position: absolute;
   
@@ -470,6 +559,15 @@ body {
   color: #32425c;
   margin-right: 258px;
 }
+
+.my-orders:hover {
+  color: #ee3643;
+ }
+
+.my-orders:active {
+  color: #cbd1d8;
+ }
+
 .personal-account {
   position: relative;
  
@@ -479,6 +577,14 @@ body {
   color: #32425c;
   margin-right: 33px;
 }
+
+.personal-account:hover {
+  color: #ee3643;
+ }
+
+.personal-account:active {
+  color: #cbd1d8;
+ }
 
 .breadcrumbs {
   margin: 0;
