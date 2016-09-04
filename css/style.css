@@ -691,7 +691,7 @@ body {
 .breadcrumbs {
   margin: 0;
 	margin-top: 22px;
-	margin-bottom: 22px;
+	margin-bottom: 20px;
   padding: 0;
 	font-size: 0;	
   list-style: none;
@@ -703,7 +703,7 @@ body {
 	font-size: 13px;
 	text-transform: uppercase;
   display: inline;
-  padding-right: 40px;
+  padding-right: 37px;
 	
 }
 
@@ -743,10 +743,14 @@ body {
 }
 
 .catalog-page-title {
-  padding-left: 30px;
-  padding-top: 31px;
-  padding-bottom: 31px;
+  padding-left: 28px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+	margin-top: 0;
+	margin-bottom: 20px;
   font-family: "Cuprum";
+	font-size: 30px;
+	font-weight: 400;
   text-transform: uppercase;
   color: #32425c;
   background: #f1f5f7;  
@@ -758,6 +762,7 @@ body {
 	margin-right: 20px;
 	font-family: PT Sans;
 	font-size: 17px;
+	font-weight: 700;
 	text-transform: uppercase;
 }
 
@@ -778,7 +783,6 @@ body {
 	margin: 0;
 	padding-left: 19px;
 	font-size: 13px;
-	
 }
 
 .filter-title p {
@@ -787,6 +791,7 @@ body {
 	padding-bottom: 11px;
 	padding-left: 19px;
 	font-size: 13px;
+	font-weight: 400;
 	background: #f7f3ec;
 }
 
@@ -871,6 +876,7 @@ body {
 }
 
 .price-controls input {
+	font-family: "PT Sans";
 	font-size: 17px;
 	text-align: center;
 	width: 76px;
@@ -910,6 +916,7 @@ input[type="checkbox"] +label {
 	display: block;
 	margin: 18px 0;
 	font-size: 15px;
+	font-weight: 400;
 	line-height: 21px;
 	padding-left: 35px;
 	position: relative;
@@ -959,6 +966,7 @@ input[type="checkbox"]:checked +label::before {
 	display: block;
 	margin: 17px 0;
 	font-size: 14px;
+	font-weight: 400;
 	line-height: 25px;
 	padding-left: 35px;
 	position: relative;
@@ -2078,6 +2086,16 @@ input[type="radio"] {
   text-decoration: none;
 }
 
+.btn-logo2:hover {	
+  background: #ca2c37;
+	border-bottom: 5px solid #9a212a;
+ }
+
+.btn-logo2:active {	
+  background: #ba2732;
+	border-bottom: 5px solid #8e1e26;
+ }
+
 .footer-left-column {
 	float: left;
 	margin: 0;
@@ -2135,6 +2153,15 @@ input[type="radio"] {
   text-decoration: none;
 }
 
+.footer-top-navigation a:hover {
+  text-decoration: underline;
+}
+
+.footer-top-navigation a:active {
+	text-decoration: none;
+  opacity: 0.3;
+}
+
 .footer-bottom-navigation {	
 	margin-top: 0px;
 	margin-bottom: 42px; 
@@ -2170,6 +2197,15 @@ input[type="radio"] {
   text-decoration: none;
 }
 
+.footer-bottom-navigation a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom-navigation a:active {
+  text-decoration: none;
+	opacity: 0.3;
+}
+
 .bottom-footer {
 	box-sizing: border-box;
 	padding-top: 18px;
@@ -2201,6 +2237,14 @@ input[type="radio"] {
 	border-radius: 50%;
 	background: #212a3a;
 	text-align: center;	
+}
+
+.social-btn:hover {
+	background: #ee3643;
+}
+
+.social-btn:active {
+	background: #ee3643;
 }
 
 .social-btn::before {
@@ -2249,6 +2293,15 @@ input[type="radio"] {
 	text-decoration: none;
 }
 
+.footer-feedback a:hover {
+	text-decoration: underline;
+}
+
+.footer-feedback a:active {
+	text-decoration: none;
+	color: #ee3643;
+}
+
 .footer-copyright-right {
 	float: right;
 	font-size: 16px;
@@ -2265,6 +2318,15 @@ input[type="radio"] {
 	color: #ffd180;
 	margin-top: 7px;
 	text-decoration: none;
+}
+
+.footer-copyright-right a:hover {
+	text-decoration: underline;
+}
+
+.footer-copyright-right a:active {
+	text-decoration: none;
+	color: #ee3643;
 }
 
 @keyframes bounce {
