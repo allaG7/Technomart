@@ -766,16 +766,19 @@ body {
 	text-transform: uppercase;
 }
 
+.filters-column p {
+	margin-top: 17px;
+}
+
 .items-column {
 	float: right;
 	width: 700px;
 	font-family: PT Sans;
-	text-transform: uppercase;
 }
 
 .filter-menu {
 	background: #f7f3ec;
-	padding-top: 11px;
+	padding-top: 10px;
 	
 }
 
@@ -787,8 +790,8 @@ body {
 
 .filter-title p {
 	margin: 0;
-	padding-top: 11px;
-	padding-bottom: 11px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	padding-left: 19px;
 	font-size: 13px;
 	font-weight: 400;
@@ -815,10 +818,10 @@ body {
 	position: relative;
 	height: 41px;
 	padding-top: 39px;
-	margin-bottom: 9px;
+	margin-bottom: 7px;
 	padding-right: 20px;
 	padding-left: 20px;
-	border-radius: 5px;
+	border-radius: 2px;
 	background: #f7f3ec;
 }
 
@@ -884,14 +887,15 @@ body {
 	margin-bottom: 26px;	
 	color: #283136;
 	border: none;
-	border-radius: 5px;
+	border-radius: 2px;
 	outline: none;
 	background: #f7f3ec;
 }
 
 .second-group {
 	position: relative;
-	padding-bottom: 10px;
+	margin-top: 20px;
+	padding-bottom: 2px;
 }
 
 .second-group::after {
@@ -905,7 +909,7 @@ body {
 }
 
 .third-group {
-	margin-top: 26px;
+	margin-top: 20px;
 }
 
 input[type="checkbox"] {
@@ -914,7 +918,7 @@ input[type="checkbox"] {
 
 input[type="checkbox"] +label {
 	display: block;
-	margin: 18px 0;
+	margin: 19px 0;
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 21px;
@@ -964,7 +968,7 @@ input[type="checkbox"]:checked +label::before {
 
 .third-group input[type="radio"] +label {
 	display: block;
-	margin: 17px 0;
+	margin: 15px 0;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 25px;
@@ -1012,8 +1016,8 @@ input:checked +label:disabled {
 
 .show-btn {
   display: inline-block;
-	width: 155px; 
-	margin-top: 80px;
+	width: 140px; 
+	margin-top: 60px;
 	background: #ffffff;
 	border: 1px solid #e5e5e5;
 	padding-top: 9px;
@@ -1048,7 +1052,7 @@ input:checked +label:disabled {
 	padding: 0;
 	list-style: none;
 	margin-bottom: 20px;
-	padding-bottom: 6px;
+	padding-bottom: 5px;
 }
 
 .final-filter li {
@@ -1057,13 +1061,13 @@ input:checked +label:disabled {
 	font-size: 13px;
 	text-transform: capitalize;
 	color: #acaaa5;
-	margin-left: 70px;
+	margin-left: 67px;
 	padding-top: 2px;
 	vertical-align: top;	
 }
 
 .final-filter li:last-child {
-	margin-left: 57px;
+	margin-left: 60px;
 }
 
 .final-filter li a {
@@ -1079,7 +1083,7 @@ input:checked +label:disabled {
 .final-filter-up::before {
   content: "";
 	position: absolute;
-	top: -45px;
+	top: -43px;
 	right: 49px;
 	width: 11px;
 	height: 10px;
@@ -1105,7 +1109,7 @@ input:checked +label:disabled {
 .final-filter-down::before {
 	content: "";
 	position: absolute;
-	top: -45px;
+	top: -43px;
 	right: 17px;
 	width: 11px;
 	height: 10px;
@@ -1202,14 +1206,14 @@ input:checked +label:disabled {
 }
 
 main {
-  height: 1202px;
+  height: 1142px;
 }
 
 .catalog-section-description {
   width: 100%;
   height: 261px;
   background: #f1f5f7;
-	margin-top: 37px;
+	margin-top: 60px;
 }
 
 .catalog-section-description h2 {
@@ -1491,7 +1495,7 @@ main {
 }
 
 .item {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 600;
   position: relative;
   display: inline-block;
@@ -1621,7 +1625,7 @@ main {
 
 .item-image {
 	width: 218px;
-  height: 168px;
+  height: 166px;
   overflow: hidden;
 }
 
@@ -1636,7 +1640,7 @@ main {
 
 .item-title {
   font-size: 18px;
-  margin-top: 10px;
+  margin-top: 12px;
   margin-bottom: 15px;
 	line-height: 20px;
   padding: 0 25px;
@@ -1644,21 +1648,22 @@ main {
 
 .item .discount {
   min-height: 20px;
-	margin-top: -5px;
-  margin-bottom: 10px;
+	margin-top: -6px;
+  margin-bottom: 9px;
   text-decoration: line-through;
   color: #999;
 }
 
 .item .discount:last-child {
   color: #ffffff;
+	margin-bottom: 11px;
 }
 
 .item .price {
   position: relative;
   width: 80px;
   margin: 0 auto 20px;
-  padding: 10px 28px;
+  padding: 8px 28px;
   color: #ffffff;
   border-radius: 3px;
   background: #ee3643;
@@ -1671,7 +1676,7 @@ main {
   width: 0;
   height: 0;
   content: '';
-  border: 20px solid #ffffff;
+  border: 19px solid #ffffff;
   border-left-color: #ee3643;
 }
 
