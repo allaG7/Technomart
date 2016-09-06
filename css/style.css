@@ -1,6 +1,6 @@
 html,
 body {
-	min-width: 1200px;
+	min-width: 960px;
 	min-height: 2249px;
 	margin: 0;
 	padding: 0;
@@ -10,7 +10,7 @@ body {
 	font-weight: 400;
 	font-size: 17px;
 	line-height: px;
-	font-family: "Cuprum", "PT Sans", "Arial", sans-serif;
+	font-family: "Cuprum", "Arial", sans-serif;
 	color: #000000;
 	font-weight: normal;
 }
@@ -195,29 +195,69 @@ body {
 	min-height: 42px
 }
 
-.btn-logo {	
-  display: inline-block;
-	float: left;
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.btn-logo {
+	position: relative;
+  float: left;	
 	width: 220px;	
-  background: #ee3643;
-	border-bottom: 5px solid #b52933;
-  padding-top: 9px;
-	padding-bottom: 6px;
-	font-size: 24px;
+  background: #ee3643;	
+	
+  padding-top: 9px;	
+	padding-bottom: 6px;	
+	font-size: 24px;	
 	text-transform: uppercase;	
   color: #ffffff;
   text-align: center;
   text-decoration: none;
 }
 
+.btn-logo::after {	
+  content: "";
+  position: absolute;
+  top: 42px;
+  left: 0px;
+
+  width: 220px;	
+  height: 5px;
+
+  background: #b52933;
+}
+
+.btn-logo:hover ::after {	
+  content: "";
+  position: absolute;
+  top: 42px;
+  left: 0px;
+
+  width: 220px;	
+  height: 5px;
+
+  background: #9a212a;
+}
+
+.btn-logo:active ::after {	
+  content: "";
+  position: absolute;
+  top: 42px;
+  left: 0px;
+
+  width: 220px;	
+  height: 5px;
+
+  background: #8e1e26;
+}
+
 .btn-logo:hover {	
   background: #ca2c37;
-	border-bottom: 5px solid #9a212a;
 }
 
 .btn-logo:active {	
   background: #ba2732;
-	border-bottom: 5px solid #8e1e26;
 }
 
 .search-main {
@@ -356,7 +396,7 @@ body {
 	background: #293449;
 	border: 2px solid #293449;
 	padding-left: 46px;  
-  font-family: "Cuprum", "PT Sans", sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 17px;
 	color: #ffffff;
 }
@@ -410,7 +450,7 @@ body {
 	float: left;
 	width: 209px;
 	margin-top: 34px;
-	margin-left: -167px;    
+	margin-left: 53px;    
   font-style: italic;
 	font-size: 16px;
   line-height: 23px;
@@ -436,6 +476,7 @@ body {
   background: #32425c; 
 	margin: 0;
 	padding: 0;
+	font-size: 0;
 	list-style: none;
   
 }
@@ -455,6 +496,19 @@ body {
 }
 
 .top-navigation li:first-child:active {
+	background: #1d2739; 
+}
+
+.top-navigation li:last-child  {
+	padding-right: 25px;
+}
+
+
+.top-navigation li:last-child:hover  {
+	background: #293449; 
+}
+
+.top-navigation li:last-child:active {
 	background: #1d2739; 
 }
 
@@ -709,7 +763,7 @@ body {
 
 .breadcrumbs li {
   position: relative;
-	font-family: PT Sans;
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 13px;
 	text-transform: uppercase;
   display: inline;
@@ -758,7 +812,7 @@ body {
   padding-bottom: 27px;
 	margin-top: 0;
 	margin-bottom: 20px;
-  font-family: "Cuprum";
+  font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 30px;
 	font-weight: 400;
   text-transform: uppercase;
@@ -770,7 +824,7 @@ body {
 	float: left;
 	width: 220px;
 	margin-right: 20px;
-	font-family: PT Sans;
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 17px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -783,7 +837,7 @@ body {
 .items-column {
 	float: right;
 	width: 700px;
-	font-family: PT Sans;
+	font-family: "PT Sans", "Arial", sans-serif;
 }
 
 .filter-menu {
@@ -1034,7 +1088,7 @@ input:checked +label:disabled {
 	padding-bottom: 9px;
 	font-size: 13px;
 	text-transform: uppercase;
-	font-family: "PT Sans";
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-weight: ;
 	border-radius: 3px;
 	outline: 0;
@@ -1204,7 +1258,7 @@ input:checked +label:disabled {
 	border-radius: 3px;
   margin-right: 10px;
 	font-size: 13px;
-	font-family: "PT Sans";
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-weight: ; 
 	text-decoration: none;
 	text-transform: uppercase;
@@ -1264,14 +1318,14 @@ main {
   display: inline-block;
   margin-bottom: 14px;
 	margin-top: 60px;
-	font-family: "Cuprum";
+	font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 30px;
 	font-weight: 400;
 	color: #000000;
 }
 
 .catalog-section-description p {
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
 	font-weight: 400;
   color: #000000;
@@ -1349,7 +1403,7 @@ main {
 	padding-bottom: 10px;
   margin-top: -5px;
   margin-left: 24px;
-	background-color: rgba(178,178,178,0.25);   
+	background-color: rgba(0,0,0,0.1);   
   border-radius: 5%;
 	font-size: 14px;
   color: #ffffff;
@@ -1359,11 +1413,11 @@ main {
 }
 
 .promo-btn:hover { 
-  background-color: rgba(178,178,178,0.50);   
+  background-color: rgba(0,0,0,0.2);   
  }
 
 .promo-btn:active { 
-  background-color: rgba(178,178,178,1);   
+  background-color: rgba(0,0,0,0.3);   
  }
 
 .promo-block h2 {
@@ -1480,7 +1534,7 @@ main {
 }
 
 .slide-text p {
-  font-family: PT sans;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 18px;
   margin: 0 auto;
 }
@@ -1536,7 +1590,7 @@ main {
   padding-top: 27px;
   padding-bottom: 27px;
 	margin-bottom: 21px;
-  font-family: "Cuprum";
+  font-family: "Cuprum", "Arial", sans-serif;
 	font-weight: 400;
   font-size: 30px;
   text-transform: uppercase;
@@ -1593,7 +1647,7 @@ main {
 .actions .buy,
 .actions .bookmark {
 	position: relative;
-  font-family: 'Cuprum', 'PT sans', sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 14px;
   display: block;
   width: 135px;
@@ -1736,7 +1790,7 @@ main {
   padding-left: 24px;
   padding-top: 27px;
   padding-bottom: 27px;
-  font-family: "Cuprum";
+  font-family: "Cuprum", "Arial", sans-serif;
 	font-weight: 400;
   font-size: 30px;
   text-transform: uppercase;
@@ -1829,7 +1883,7 @@ main {
 
 .title {
   width: 400px; 
-  font-family: "Cuprum";
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 30px;
 	font-weight: 400; 
   color: #000000;
@@ -1840,7 +1894,7 @@ main {
 
 .text {
   width: 400px;  
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
 	line-height: 24px;
   color: #000000;
@@ -1937,7 +1991,7 @@ input[type="radio"] {
 }
 
 .bottom-slide-text p {
-	font-family: "PT Sans";
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 13px;
 	line-height: 24px;
 	color: #000000;	
@@ -2009,15 +2063,15 @@ input[type="radio"] {
 }
 
 .about-us-discription {
-	font-family: "PT Sans";
-	font-weight: 700;
+	font-family: "PT Sans", "Arial", sans-serif;
+	font-weight: 400;
 	font-size: 13px;
 	line-height: 24px;
 	margin-bottom: 24px;
 }
 
 .logistic {
-	font-family:"Cuprum";
+	font-family:"Cuprum", "Arial", sans-serif;
 	font-weight: 400;
 	font-size: 18px;
 	margin-left: -3px;
@@ -2081,8 +2135,8 @@ input[type="radio"] {
 }
 
 .contacts-discription {
-	font-family: "PT Sans";
-	font-weight: 700;
+	font-family: "PT Sans", "Arial", sans-serif;
+	font-weight: 400;
 	font-size: 13px;
 	line-height: 24px;
 	width: 181px;
@@ -2413,7 +2467,7 @@ input[type="radio"] {
 
 .modal {
 	position: fixed;
-	display: inline-block;
+	display: none;
 	left: 50%; 
 	top: 50%;
 	z-index: 10;
@@ -2483,7 +2537,7 @@ input[type="radio"] {
 	font-size: 0;
 	font-size: 13px;
 	line-height: 18px;
-	font-family: "Cuprum", "PT Sans", sans-serif;
+	font-family: "Cuprum", "Arial", sans-serif;
 	color: #999999;
 }
 
@@ -2494,7 +2548,7 @@ input[type="radio"] {
 	padding-left:  14px;	
 	font-size: 13px;
 	line-height: 16px;
-	font-family: "Cuprum", "PT Sans", sans-serif;
+	font-family: "Cuprum", "Arial", sans-serif;
 	color: #999999;
 	border: 2px solid #d7dcde;
 	border-radius: 1px;
@@ -2515,7 +2569,7 @@ input[type="radio"] {
 	font-size: 18px;
 	line-height: 18px;
 	margin-bottom: 11px;
-	font-family: "Cuprum", "PT Sans", sans-serif;
+	font-family: "Cuprum", "Arial", sans-serif;
 }
 
 .field-label:nth-child(3) {
@@ -2547,7 +2601,7 @@ input[type="radio"] {
 	padding-bottom: 11px;
 	padding-right: 0;
 	padding-left: 0;
-	font-family: "Cuprum", "PT Sans", sans-serif;
+	font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 14px;
 	color: #ffffff;
 	text-transform: uppercase;
@@ -2593,7 +2647,7 @@ input[type="radio"] {
 	padding-right: 0;
 	padding-left: 0;
 	margin-right: 20px;
-	font-family: "Cuprum", "PT Sans", sans-serif;
+	font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 14px;
 	color: #ffffff;
 	text-transform: uppercase;
@@ -2620,7 +2674,7 @@ input[type="radio"] {
 	padding-bottom: 10px;
 	padding-right: 0;
 	padding-left: 0;
-	font-family: "Cuprum", "PT Sans", sans-serif;
+	font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 14px;
 	color: #000000;
 	text-transform: uppercase;
